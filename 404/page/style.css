@@ -1,0 +1,38 @@
+body{
+    background-color:gainsboro;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+div#box{
+    height:100vh;
+    width: 100vw;
+}
+div#top, div#content{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size:x-large;
+    text-align: center;
+    align-self: center;
+}
+video{
+    width: 100px;
+    height: 100px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: powderblue;
+    cursor: pointer;
+}
+#content{
+    position: relative;
+    top: 30vh;
+}
+#back{
+    position: relative;
+    top:25px
+}
